@@ -7,7 +7,7 @@ function dibujarPeon (xC, yC, color) {
 ctx.fillStyle = color
 ctx.strokeStyle = "black"
 ctx.beginPath()
-ctx.arc(xC, yC, 25, Math.PI*0, 2* Math.PI,);
+ctx.arc(xC, yC, 25, Math.PI*0, 2*Math.PI)
 ctx.fill()
 ctx.stroke()
 ctx.beginPath()
