@@ -19,8 +19,3 @@ function dibujarPeon (xC, yC, tam, color) {
     ctx.stroke()
     ctx.fill()
     }
-
-
-
-
-
