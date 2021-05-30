@@ -57,9 +57,9 @@ function cambiarColor(){
 }
 window.onclick = function(event){
 
-    let ClickX= event.offsetX 
-    let ClickY = event.offsetY
-  distancia = Math.sqrt (Math.pow (ClickX - x,2) + Math.pow (ClickY - y,2))
+    let PushX= event.offsetX 
+    let PushY = event.offsetY
+  distancia = Math.sqrt (Math.pow (PushX - x,2) + Math.pow (PushY - y,2))
     if (distancia <= r){
         cambiarColor()
     }
